@@ -1,11 +1,11 @@
 public class SuperFactory implements AbstractFactory{
     @Override
-    public Airpods createAirpods(String param) {
+    public Airpods createAirpods() {
         return new Airpodspro();
     }
 
     @Override
-    public ipad createAirtag(String parma) {
+    public ipad createipad() {
         return new ipadpro();
     }
 }

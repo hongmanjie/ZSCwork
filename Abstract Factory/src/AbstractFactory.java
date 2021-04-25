@@ -1,4 +1,4 @@
 public interface AbstractFactory {
-    Airpods createAirpods(String param);
-    ipad createAirtag(String parma);
+    Airpods createAirpods();
+    ipad createipad();
 }
